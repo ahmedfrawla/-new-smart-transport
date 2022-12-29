@@ -1,0 +1,130 @@
+body{
+    height: 100vh;
+    background-image: url("../img/55.jpg");
+    background-size: cover;
+}
+
+
+.navbarbar{
+    position: absolute;
+    width: 100%; 
+}
+
+.navbar .box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.navbar .box h1{
+left: 600px;    
+position: absolute;
+font-weight: bold;
+color: white;
+}
+
+.navbar .box::before{
+    content: "";
+    position: absolute;
+    width: calc(94% - 106px);
+    height: 2px;
+    border-bottom: 1px solid black;
+    left: 133px;
+    top: 90px;
+}
+
+.navbar .box img{
+width: 150px;
+margin-left: -100px;
+}
+
+.navbar .navbar-links ul{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+   margin-right: -200px;
+}
+
+.navbar .navbar-links ul li a{
+    text-decoration: none;
+    margin-left: 50px; 
+    color: red;
+    font-size: 25px;
+    position: relative;
+}
+
+.navbar .navbar-links ul li a:hover{
+color: rgb(117, 220, 20);
+}
+    
+
+
+.form{
+    width: 400px;
+    height: 555px;
+    padding:20px  25px;
+    margin:9% auto 0;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 30%);   
+}
+
+
+.hh{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.form input{
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+    width: 75%;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+}
+
+.form  input[type="submit"] {
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form  button {
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.form  button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.form  button:hover{
+    background-color: blue;
+    color: black;
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
+}
+

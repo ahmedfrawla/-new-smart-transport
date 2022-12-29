@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة التحكم</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+<style>
+
+.videoContainer video {
+    position: fixed;
+    height: 100vh;
+    width: 110%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    object-fit: cover;
+	margin-right:120px
+}
+.container {
+    font-size: large;
+    position: relative;
+    background: azure;
+    max-width: 44%;
+    padding: 59px;
+}
+.jumbotron {
+    display: flex;
+    height: 60px;
+}
+.jumbotron a {
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+} 
+.btn-success{
+    border-radius: 25px;
+    background-color: white;
+    width: 50%;
+    margin: 0 20px;
+}
+.alert-success strong {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.btn-info {
+    border-radius: 25px;
+    background-color: white;
+    width: 50%;
+}
+td{
+border: 1px solid #ddd !important;}
+</style>
+</head>
+<body>
+    <header>
+        <div class="box">
+            <img src="./img/logo.png" alt="">
+            <a  href="https://mot.gov.eg" target="_blank">وزاره النقل</a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="qr.html"> QR سيستم</a></li>
+                    <li><a href="users.php">اداره المستخدمين</a></li>
+                    <li><a href="add_user.php">اضافة المستخدمين</a></li>
+                </ul>
+            </div>
+          
+        
+
+
+    </div> 
+    <center>
+        <br><br>        
+        <br><br>       <div class="alert alert-success" role="alert" style="font-size:large; font-family: ge1 ; color: #000; ">
+        <strong>مرحبا بك فى لوحة التحكم  </strong>
+        <br>
+        </div>
+        <div class="container" style="font-size:large;-family: ge1 ;">
+        <div class="jumbotron jumbotron-fluid">
+        <br>
+        <button type="button" class="btn btn-success"><a href="qr/payment_pro.html" style="font-size:18px">دفع عن طريق QR  </a> </button>
+        <button type="button" class="btn btn-info"><a href="qr/show_data.html" style="font-size:18px">الاستعلام عن طريق QR  </a> </button>
+       </div></div>
+    </center>
+    </header>
+    <div id="video" class="videoContainer">
+        <video id="wallpaper-video" class="b-lazy b-loaded" playsinline="" autoplay="" loop="" muted=""> <source src="videos/videoHome-31174.mp4" type="video/mp4"></video>
+ </div>
+
+    
+</body>
+</html>
